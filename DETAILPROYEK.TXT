@@ -1,0 +1,15 @@
+admin = tambah stok barang(baju anak)
+pembeli/user = beli baju anak
+
+Alur Pembeli :
+
+sebelum opsi login admin, program diarahkan untuk memilih 2 opsi ( register pembeli/login admin).
+pembeli yang berhasil diregister akan masuk ke data accounts dengan role "pembeli"
+
+flow pembelian baju anak :
+
+pembeli lihat data baju->tambah ke keranjang->lihat keranjang->bayar semua data baju yang ada di keranjang(note : jika punya kode voucher, harga total baju di keranjang bisa berkurang)
+
+flow voucher : 
+
+voucher baru bisa diinput saat pembeli melakukan pembayaran total baju di keranjang
